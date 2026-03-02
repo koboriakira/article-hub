@@ -5,6 +5,18 @@
 このプロジェクトは[セマンティックバージョニング](https://semver.org/spec/v2.0.0.html)に従い、
 [Conventional Commits](https://conventionalcommits.org/)を使用して自動的にリリースを生成します。
 
+## 0.1.0 (2026-03-02)
+
+
+### Features
+
+* CLI コマンド追加 (list, post, update) ([ed45dc9](https://github.com/koboriakira/article-hub/commit/ed45dc93aee7df655d94eb60b5d8406443fa7f29))
+* Markdown frontmatter パーサー (parse_markdown_file) ([8a4e668](https://github.com/koboriakira/article-hub/commit/8a4e668fa160978519168b20a56b9b248822e128))
+* Qiita API v2 同期クライアント (list/create/update) ([16023e9](https://github.com/koboriakira/article-hub/commit/16023e9c67ceda2b517f4963dd25baaa19672ebe))
+* Qiita API の Pydantic モデル定義（QiitaTag, QiitaItemRequest, QiitaItemResponse, ArticleFrontmatter） ([6938a10](https://github.com/koboriakira/article-hub/commit/6938a10348dfa32e697ad0f2de26db90909d5709))
+* Qiita記事管理CLIプロジェクトの初期セットアップ ([cc23cf8](https://github.com/koboriakira/article-hub/commit/cc23cf8fe5890754d309d2d0c5b4928c36fa23c6))
+* 記事校閲チームのサブエージェント定義（fact-checker, proofreader, copy-editor, orchestrator） ([24d30b1](https://github.com/koboriakira/article-hub/commit/24d30b1e7ee30b06c8116cb000e9229b3291fb60))
+
 ## [0.3.0](https://github.com/koboriakira/article-hub/compare/v0.2.0...v0.3.0) (2026-01-02)
 
 

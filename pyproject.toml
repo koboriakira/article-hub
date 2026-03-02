@@ -1,6 +1,6 @@
 [project]
 name = "article-hub"
-version = "0.3.0"
+version = "0.1.0"
 description = "Qiita記事のAPI投稿・更新CLIツール"
 authors = [{ name = "koboriakira" }]
 readme = "README.md"
